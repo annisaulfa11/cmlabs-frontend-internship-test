@@ -17,3 +17,11 @@ FoodApp is a web application that allows users to explore a variety of meal cate
 - Axios (for API requests)
 - TheMealDB API
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/annisaulfa11/cmlabs-frontend-internship-test.git
+
+2. Open the index.html File 
+   Locate the public folder within the project directory. Inside the public folder, find and open the index.html file.
