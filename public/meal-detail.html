@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Detail - FoodApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Meal Detail Section -->
+    <section class="py-10 sm:px-10 px-6 mt-20">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full lg:w-1/4">
+            <img
+              id="meal-image"
+              src=""
+              alt="Meal Image"
+              class="rounded-lg shadow-lg mb-6"
+            />
+          </div>
+          <div class="w-full lg:w-1/2 lg:pl-10">
+            <h2 id="meal-title" class="text-4xl font-bold mb-4"></h2>
+            <p id="meal-category" class="text-gray-600 mb-2"></p>
+            <p id="meal-area" class="text-gray-600 mb-2"></p>
+            <h3 class="text-xl font-semibold mt-4">Instructions</h3>
+            <p id="meal-instructions" class="text-gray-700 mt-2"></p>
+
+            <h3 class="text-xl font-semibold mt-4">Ingredients</h3>
+            <ul id="meal-ingredients" class="list-disc list-inside mt-2 text-gray-700"></ul>
+
+            <!-- Video Section -->
+            <h3 class="text-xl font-semibold mt-4">Recipe Video</h3>
+            <iframe id="meal-video" class="w-full h-64 mt-4" src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../src/js/header.js"></script>
+    <script src="../src/js/footer.js"></script>
+    <script src="../src/js/meal-detail.js"></script>
+  </body>
+</html>

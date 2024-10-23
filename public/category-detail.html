@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category Detail - FoodApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <div id="header"></div>
+
+    <section class="py-10 sm:px-10 px-6 text-center mt-20 bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-extrabold mb-4" id="category-title">
+          Category: <span id="category-name"></span>
+        </h2>
+        <p class="text-lg ">
+          Explore delicious meals from the selected category. Click on a meal to see its ingridients!
+        </p>
+      </div>
+    </section>
+
+    <!-- Meals Section -->
+    <section class="py-5 sm:px-20 px-6">
+      <div class="container mx-auto">
+        <div
+          id="meals"
+          class="flex flex-wrap justify-center sm:gap-5 gap-3"
+        ></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../src/js/header.js"></script>
+    <script src="../src/js/footer.js"></script>
+    <script src="../src/js/category-detail.js"></script>
+  </body>
+</html>
