@@ -10,19 +10,19 @@ document.getElementById('header').innerHTML = `
       </button>
 
       <ul id="menu" class="hidden sm:flex space-x-6">
-        <li><a href="index.html" class="text-gray-800 hover:text-green-600">Home</a></li>
-        <li><a href="category.html" class="text-gray-800 hover:text-green-600">Categories</a></li>
-        <li><a href="category-detail.html" class="text-gray-800 hover:text-green-600">Ingredients</a></li>
-        <li><a href="category-detail.html" class="text-gray-800 hover:text-green-600">Area</a></li>
+        <li><a href="/index.html" class="text-gray-800 hover:text-green-600">Home</a></li>
+        <li><a href="/public/category.html" class="text-gray-800 hover:text-green-600">Categories</a></li>
+        <li><a href="/public/category-detail.html" class="text-gray-800 hover:text-green-600">Ingredients</a></li>
+        <li><a href="/public/category-detail.html" class="text-gray-800 hover:text-green-600">Area</a></li>
       </ul>
     </div>
 
     <div id="mobile-menu" class="hidden sm:hidden">
       <ul class="flex flex-col gap-y-3  justify-center items-center bg-white px-6 pb-4">
-        <li><a href="index.html" class="block text-gray-800 hover:text-green-600">Home</a></li>
-        <li><a href="category.html" class="block text-gray-800 hover:text-green-600">Categories</a></li>
-        <li><a href="category-detail.html" class="block text-gray-800 hover:text-green-600">Ingredients</a></li>
-        <li><a href="category-detail.html" class="block text-gray-800 hover:text-green-600">Area</a></li>
+        <li><a href="/index.html" class="block text-gray-800 hover:text-green-600">Home</a></li>
+        <li><a href="/public/category.html" class="block text-gray-800 hover:text-green-600">Categories</a></li>
+        <li><a href="/public/category-detail.html" class="block text-gray-800 hover:text-green-600">Ingredients</a></li>
+        <li><a href="/public/category-detail.html" class="block text-gray-800 hover:text-green-600">Area</a></li>
       </ul>
     </div>
   </nav>
